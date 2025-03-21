@@ -2,7 +2,7 @@
 public class Main {
     public static void main(String[] args) {
 
-    Criatura jogador = new Jogador("Caio Zancheta");
+    Criatura jogador = new Jogador("Caio Zancheta",500);
     Criatura inimigo = new EricTavares();
 
         System.out.println("Bem vindo ao Senac");

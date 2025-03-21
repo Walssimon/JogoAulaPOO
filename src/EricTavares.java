@@ -1,7 +1,8 @@
 public class EricTavares extends Inimigo{
 
     public EricTavares() {
-        super( 500 ,"Eric Tavares", 50);
+
+        super( 500 ,"Eric Tavares", 50, new Bloqueio(30));
     }
 
     @Override
